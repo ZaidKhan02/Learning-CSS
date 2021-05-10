@@ -1,0 +1,21 @@
+h2 {
+    color: red;
+    background-color: yellow;
+}
+
+button {
+    color: magenta;
+    background-color: cyan;
+}
+
+p {
+    color: rgb(89, 151, 0);
+    /*rgb stands for red, gree, blue and in the brackets are the value of those colors which combine to make a color*/
+}
+
+body {
+    background-color: #000000;
+    /*this is in hexadecimal form where it ranges from 1-9 and then A-F, where F is 15*/
+    /*the first 2 digits are red, then blue, and then green*/
+}
+
