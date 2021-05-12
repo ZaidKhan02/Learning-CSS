@@ -1,0 +1,92 @@
+/* * {
+    background-color: bisque;
+}
+*/
+/*the * makes the background color bisque for everything*/
+
+button {
+    font-size: 20px;
+    color: white;
+}
+
+h1, h2 {
+    color: brown;
+    /*this select both h1 and h2 elements to be brown*/
+}
+
+body {
+    background-color: rgb(138, 138, 209);
+}
+
+#signup {
+    background-color: chartreuse;
+    color: darkblue;
+    /*the #signup is referring to the id in the signup button in the html file*/
+}
+
+span {
+    color: darkturquoise
+}
+
+.tag {
+    background-color: deepskyblue;
+    color: firebrick;
+    /*the .tag is referring to the class in the <span> words in the html file*/
+}
+
+footer a {
+    color: yellowgreen;
+    /*this is saying that all the anchor tags inside the footer will be the color green*/
+}
+
+h2 + button {
+    background-color: magenta;
+    /*this means that any button that comes after h2 will be magenta. In this case all 3 buttons were effected*/
+}
+
+footer > a {
+    color: red;
+}
+
+input[type="password"] {
+    color: red;
+    /*the [type] tells us that only the password type will contain red text*/
+}
+
+.post button:hover {
+    background-color: red;
+    color: white;
+    /*this means that when we hover over the vote button, the color will change. the .post */
+}
+
+.post button:active {
+    background-color: blue;
+    /*this means the color will be blue when activated. In other words, when clicked my the mouse*/
+}
+
+.post:nth-of-type(2n) {
+    background-color: chartreuse;
+    /*this means that every 2nd with class of "post", the color is green*/
+}
+
+h2::first-letter {
+    font-size: 40px;
+    /*this changes the font size of every first letter in an h2. the :: are important to signal that it is a pseudo element and not class*/
+}
+
+p::selection {
+    background-color: coral;
+    /*when you highlight the paragraph, the color will be coral*/
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+    /*font-size changes for all button because in the previous .post button:hover only color was coded not font-size*/
+}
+
+button {
+    background-color: lightblue !important;
+   /*It is not good to use !important statements*/
+    /*the !important statememt tells the computer that this background color is the most specific one and will take over IDs, Class, and elements*/
+}
