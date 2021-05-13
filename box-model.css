@@ -1,0 +1,40 @@
+h1 {
+    background-color: pink;
+    width: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+#one {
+    background-color: pink;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+
+#two {
+    background-color: plum;
+    border-width: 5px;
+    border-color: black;
+    border-style: dashed;
+    border-left-color: coral;
+    margin-bottom: 10px;
+}
+
+#three {
+    background-color: powderblue;
+    border: 4px black solid;
+    border-left-style: dotted;
+    border-radius: 50%;
+}
+
+button {
+    padding: 10px 20px;
+    /*the short form of padding is designed like all (when only one pixel), vertical/horizontal, top/horizontal/bottom, or top/right/bottom/left*/
+}
