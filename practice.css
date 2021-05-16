@@ -1,0 +1,18 @@
+section {
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(240, 25, 21, 0.7);
+    /*the last number slot is alpha which determines from a scale of 0-1 how transparent something is with 0 being blank and 1 being transparent*/
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+}
