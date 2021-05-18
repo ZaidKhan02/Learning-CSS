@@ -1,0 +1,39 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: grey;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#middle {
+    background-color: cadetblue;
+}
+
+#static #middle {
+    position: static;
+    top: 100px;
+}
+
+#relative #middle {
+    position: relative;
+    top: 100px;
+}
+
+#absolute {
+    position: relative;
+}
+
+#absolute #middle {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+#fixed #middle {
+    position: fixed;
+    top: 0px;
+    left: 200px;
+    /*this fixed term will let the box remain at the top when navigating. Good for website bars*/
+}
